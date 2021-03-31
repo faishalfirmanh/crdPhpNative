@@ -13,7 +13,9 @@ if (isset($_GET['idPengunjung'])) {
   $cek = mysqli_query($conn, $sql);
 
   if ($cek) {
-    echo "berhasil hapus";
+    // header('Location: http://www.example.com/');
+    // exit;
+    header("Location: index.php");
   }
   else {
     echo "Gagal ". $sql ."<br>". mysqli_error($conn);

@@ -10,7 +10,7 @@
       // echo '<script type="text/JavaScript">
       //        alert("sukses ditambahkan");
       //        </script>';
-      header('Location: read.php');
+      header('Location: index.php');
       }
 else {
   echo "Gagal insert";  //untuk 1 insert

@@ -2,7 +2,7 @@
 include("koneksi.php");
 if( !isset($_GET['idPengunjung']) ){
 	// kalau tidak ada id di query string
-	header('Location: read.php');
+	header('Location: index.php');
 }
 //ambil id dari query string
 $id = $_GET['idPengunjung'];
@@ -43,7 +43,7 @@ if( mysqli_num_rows($query) < 1 ){
 											</div>
 											<div class="form-group">
 													<label>usia</label>
-													<input type="text" name="usia" class="form-control"  value="<?php echo $visitor['usia'] ?>">
+													<input type="number" name="usia" class="form-control"  value="<?php echo $visitor['usia'] ?>">
 													<span class="help-block"></span>
 											</div>
 											<div class="form-group">

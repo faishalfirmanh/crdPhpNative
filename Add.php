@@ -30,7 +30,7 @@
                         </div>
                         <div class="form-group">
                             <label>usai</label>
-                            <input type="text" name="usia" class="form-control">
+                            <input type="number" name="usia" class="form-control">
                             <span class="help-block"></span>
                         </div>
                         <div class="form-group">
@@ -39,7 +39,7 @@
                             <span class="help-block"></span>
                         </div>
                         <input type="submit" class="btn btn-primary" value="Add" name="Submit">
-                        <a href="read.php" class="btn btn-default">Cancel</a>
+                        <a href="index.php" class="btn btn-default">Cancel</a>
                     </form>
                 </div>
             </div>
